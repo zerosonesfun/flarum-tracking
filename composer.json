@@ -1,0 +1,70 @@
+{
+    "name": "zerosonesfun/flarum-tracking",
+    "description": "Track bugs, issues, data requests, and everything else. Data is not stored in the main Flarum database which means you can access your tracker even if your forum implodes.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "email": "billy@wilcosky.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/flarum-tracking/issues",
+        "source": "https://github.com/zerosonesfun/flarum-tracking",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\Tracking\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZerosOnesFun\\Tracking\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tracking",
+            "category": "features",
+            "icon": {
+                "name": "fas fa-tasks",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    }
+}
