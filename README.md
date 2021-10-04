@@ -30,4 +30,3 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/flarum-tracking)
 - [GitHub](https://github.com/zerosonesfun/flarum-tracking)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
