@@ -13,7 +13,7 @@ export default class TrackingPage extends ExtensionPage {
       return (
         <div style="--aspect-ratio: 16/9;">
             <iframe 
-                    src="https://www.wilcosky.com/tracking/index.php"
+                    src=""
                     width="1600"
                     height="900"
                     frameborder="0">
