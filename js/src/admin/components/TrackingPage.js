@@ -13,7 +13,7 @@ export default class TrackingPage extends ExtensionPage {
       return (
         <div style="--aspect-ratio: 16/9;">
             <iframe 
-                    src="/public/assets/extensions/zerosonesfun-tracking/bumpy/index.php"
+                    src="../assets/extensions/zerosonesfun-tracking/bumpy/index.php"
                     width="1600"
                     height="900"
                     frameborder="0">

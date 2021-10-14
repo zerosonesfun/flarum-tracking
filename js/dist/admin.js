@@ -182,7 +182,7 @@ var TrackingPage = /*#__PURE__*/function (_ExtensionPage) {
     return m("div", {
       style: "--aspect-ratio: 16/9;"
     }, m("iframe", {
-      src: "/public/assets/extensions/zerosonesfun-tracking/bumpy/index.php",
+      src: "../assets/extensions/zerosonesfun-tracking/bumpy/index.php",
       width: "1600",
       height: "900",
       frameborder: "0"
