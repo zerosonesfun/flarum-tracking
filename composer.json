@@ -1,6 +1,6 @@
 {
     "name": "zerosonesfun/flarum-tracking",
-    "description": "Track bugs, issues, data requests, and everything else. Data is not stored in the main Flarum database which means you can access your tracker even if your forum implodes.",
+    "description": "Track bugs, issues, data requests, and anything else.",
     "keywords": [
         "flarum"
     ],
